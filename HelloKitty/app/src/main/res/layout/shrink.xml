@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_interpolator" >
+
+        <scale
+            android:duration="1000"
+            android:fromXScale="3.0"
+            android:fromYScale="3.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="100"
+            android:toXScale="0.1"
+            android:toYScale="0.1" />
+
+    </set>
+</android.support.constraint.ConstraintLayout>
